@@ -27,8 +27,7 @@ jobs:
       - name: Build package
         run: npm run build
 
-      - name: Release
+      - name: Release to npm
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
