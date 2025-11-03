@@ -1,10 +1,10 @@
 {
   "name": "@authory/use-web-storage-hook",
   "version": "1.0.0",
-  "description": "React hook for smart localStorage/sessionStorage with expiry and cross-tab sync.",
-  "main": "dist/use-web-storage.cjs.js",
-  "module": "dist/use-web-storage.esm.js",
-  "types": "dist/use-web-storage.d.ts",
+  "description": "React hook for smart localStorage/sessionStorage with expiry, remove, clear, and cross-tab sync.",
+  "main": "dist/use-web-storage.umd.js",
+  "module": "dist/use-web-storage.es.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -28,19 +28,15 @@
     "storage",
     "localstorage",
     "sessionstorage",
-    "useWebStorage"
+    "useWebStorage",
+    "react-hook"
   ],
-  "author": "John Titor",
+  "author": "John Titor <authory>",
   "license": "Copyleft",
   "devDependencies": {
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^11.0.6",
-    "@semantic-release/npm": "^12.0.2",
     "@vitejs/plugin-react": "^3.0.0",
-    "conventional-changelog-conventionalcommits": "^9.1.0",
-    "semantic-release": "^24.2.9",
-    "typescript": "^4.0.0",
     "vite": "^4.0.0",
-    "vite-plugin-dts": "^4.5.4"
+    "vite-plugin-dts": "^4.5.4",
+    "typescript": "^4.0.0"
   }
 }

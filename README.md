@@ -36,3 +36,30 @@ npm publish --access public
 npm install use-web-storage
 import { useWebStorage } from "@authory/use-web-storage-hook";
 ```
+
+## ✨ Features
+
+🔁 Works with both localStorage and sessionStorage
+
+⏱ Supports expiry (auto remove after given time)
+
+🧹 Provides remove() and clear() helpers
+
+🔄 Syncs data across browser tabs
+
+💡 Lightweight, dependency-free
+
+### API
+
+```bash
+const [value, setValue, remove, clear] = useWebStorage(key, defaultValue, options);
+```
+
+### Options
+
+```bash
+{
+  storage: 'local' | 'session', // default: 'local'
+  expiry: 3600 // seconds
+}
+```
