@@ -12,6 +12,13 @@
     "build": "vite build",
     "prepare": "npm run build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johntitor/use-web-storage-hook.git"
+  },
   "peerDependencies": {
     "react": ">=17.0.0"
   },
