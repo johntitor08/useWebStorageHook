@@ -5,14 +5,14 @@ A React hook for smart localStorage/sessionStorage with expiry, remove, clear, a
 ## Installation
 
 ```bash
-npm install use-web-storage
+npm install @authory/use-web-storage-hook
 ```
 
 ## Example Usage
 
 ```bash
 
-import { useWebStorage } from "use-web-storage";
+import { useWebStorage } from "@authory/use-web-storage-hook";
 
 function App() {
   const [theme, setTheme] = useWebStorage("theme", "light");
@@ -34,5 +34,5 @@ function App() {
 npm login
 npm publish --access public
 npm install use-web-storage
-import { useWebStorage } from "use-web-storage";
+import { useWebStorage } from "@authory/use-web-storage-hook";
 ```

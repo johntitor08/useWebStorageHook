@@ -1,5 +1,5 @@
 {
-  "name": "@johntitor/use-web-storage-hook",
+  "name": "@authory/use-web-storage-hook",
   "version": "1.0.0",
   "description": "React hook for smart localStorage/sessionStorage with expiry and cross-tab sync.",
   "main": "dist/use-web-storage.cjs.js",
