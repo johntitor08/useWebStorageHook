@@ -1,6 +1,6 @@
 {
   "branches": ["main"],
-  "repositoryUrl": "https://github.com/johntitor/useWebStorageHook",
+  "repositoryUrl": "https://github.com/johntitor08/useWebStorageHook",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
