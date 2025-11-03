@@ -1,6 +1,6 @@
 {
   "name": "@authory/use-web-storage-hook",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React hook for smart localStorage/sessionStorage with expiry, remove, clear, and cross-tab sync.",
   "main": "dist/use-web-storage.umd.js",
   "module": "dist/use-web-storage.es.js",
