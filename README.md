@@ -1,4 +1,4 @@
-# use-web-storage
+# useWebStorage
 
 A React hook for smart localStorage/sessionStorage with expiry, remove, clear, and cross-tab sync support.
 
