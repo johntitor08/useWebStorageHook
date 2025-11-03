@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), dts()],
   build: {
     lib: {
-      entry: "src/useWebStorage.js",
+      entry: "src/useWebStorage.jsx",
       name: "useWebStorage",
       fileName: (format) => `use-web-storage.${format}.js`,
     },
